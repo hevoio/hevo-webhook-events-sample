@@ -12,7 +12,6 @@ const hevoUserAgent = "HevoWebhookEvent";
  */
 // Middleware to authenticate request.
 function authenticate(req, res, next) {
-  console.log(sharedSecret);
   if (!sharedSecret) {
     return next();
   }
