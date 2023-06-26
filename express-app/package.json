@@ -1,14 +1,14 @@
 {
-  "name": "hmac-express-app",
+  "name": "Hevo-webhook-sample-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate code to integrate with Hevo webhook events",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hevo",
   "license": "ISC",
   "dependencies": {
     "crypto": "^1",
